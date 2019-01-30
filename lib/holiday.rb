@@ -42,7 +42,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # code here
   # remember to return the updated hash
   holiday_hash.merge!(:fall => {:thanksgiving => ["Turkey"], :columbus_day =>["Flags", "Italian Food", "Parade Floats"]})
-  holiday_hash.update(:winter => {:Christmas => ['Lights','Wreath', 'Balloons'],:new_years => ['Party Hats','Balloons'], :valentines_day => []})
+  holiday_hash.update(:winter => {:Christmas => ['Lights','Wreath', 'Balloons'],:new_years => ['Party Hats','Balloons']})
 end
 
 def all_winter_holiday_supplies(holiday_hash)
